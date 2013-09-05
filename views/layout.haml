@@ -13,26 +13,25 @@
     #header
       .navbar
         .navbar-inner
-          .container
+          .container 
             %a(href="/")
-              %img.brand(src="http://www.underconsideration.com/brandnew/archives/chicago_flag.gif")
+              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "150", :height => "100"}
               %a.btn.btn-navbar(data-toggle="collapse" data-target=".nav-collapse")
                 %span.icon-bar
                 %span.icon-bar
                 %span.icon-bar
-              .nav-collapse
-
-                %ul.nav.navbar-nav
-                  %li.active
-                    %a{:href => "/about"} About
-                  %li
-                    %a{:href => "/issue"} Issue
-                  %li
-                    %a{:href => "/events"} Events
-                  %li
-                    %a{:href => "#"} Merch
-                  %li
-                    %a{:href => "#"} Donate 
+            .nav-collapse
+              %ul.nav.navbar-nav
+                %li.active
+                  %a{:href => "/about"} About
+                %li
+                  %a{:href => "/issue"} Issue
+                %li
+                  %a{:href => "/events"} Events
+                %li
+                  %a{:href => "#"} Merch
+                %li
+                  %a{:href => "#"} Donate 
     #container
       =yield
     / jQuery (necessary for Bootstrap's JavaScript plugins)
