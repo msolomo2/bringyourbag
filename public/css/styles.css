@@ -5,3 +5,21 @@
 .about-side-text {
 	padding-top: 30px;
 }
+
+.about-h1 {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	
+}
+.about-h4 {
+	padding-top: 15px; padding-left: 60px; font-family: 'Candal', sans-serif; font-size: 30px
+}
+.issue-h1 { 
+	font-size: 23px
+
+}
+.issue-h2 {
+	font-size: 23px
+}
+
+.index-h1 {font-family: 'Purple Purse', cursive;
+}
