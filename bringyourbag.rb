@@ -4,6 +4,10 @@ get '/' do
 	haml :index  
 end  
 
+get '/alderman' do
+	haml :alderman
+end
+
 get '/about' do 
 	haml :about
 end
