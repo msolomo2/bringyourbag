@@ -1,13 +1,18 @@
+%haml
+%head
+ %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+  %link{:href => "assets/css/bootstrap-responsive.css", :rel => "stylesheet"}/
+
 .jumbotron
-	.container
-		.row
-			%input{placeholder: "Enter Zipcode"}
-			%button.btn-large.btn-primary Call Your Alderman
-		%h1.index-h1 BRING YOUR BAG
-		%link{:href => "http://fonts.googleapis.com/css?family=Purple+Purse", :rel => "stylesheet", :type => "text/css"}
-		.row
-		.col-md-1.col-md-offset-0
-		%img(src='http://d22r54gnmuhwmk.cloudfront.net/photos/7/vp/ji/BoVPjIpQMUBVzYE-556x313-noPad.jpg')
-		.col-md-4
-			%h2 Chicago will be voting on legislation to reduce plastic bags very soon. NOW is the absolute BEST time to make your voice heard.
+	.container-fluid
+		.row-fluid
+			%h1.index-h1 BRING YOUR BAG
+			%link{:href => "http://fonts.googleapis.com/css?family=Purple+Purse", :rel => "stylesheet", :type => "text/css"}
+		.row-fluid
+			.span2
+				%img(src='http://d22r54gnmuhwmk.cloudfront.net/photos/7/vp/ji/BoVPjIpQMUBVzYE-556x313-noPad.jpg')
+		.row-fluid	
+			.col-md-6
+				%h2 Chicago will be voting on legislation to reduce plastic bags very soon. NOW is the absolute BEST time to make your voice heard.
+		.row-fluid		
 			%a{:href => "https://msolomo2.wufoo.com/forms/z1ayxpo0070ejxf/", :onclick => "window.open(this.href,  null, 'height=423, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false"} Help reusable bags in Chicago!
