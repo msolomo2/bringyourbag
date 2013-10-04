@@ -23,3 +23,12 @@
 
 .index-h1 {font-family: 'Purple Purse', cursive;
 }
+
+.img {
+	max-width: 100%;
+	height: auto;
+}
+
+.%a {
+	font-family: 'Candal', sans-serif;
+}
