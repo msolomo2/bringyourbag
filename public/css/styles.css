@@ -11,7 +11,8 @@
 	
 }
 .about-h4 {
-	padding-top: 15px; padding-left: 60px; font-family: 'Candal', sans-serif; font-size: 30px
+	padding-top: 15px; padding-left: 60px; 
+	font-family: 'Candal', sans-serif; font-size: 30px
 }
 .issue-h1 { 
 	font-size: 23px
@@ -29,5 +30,11 @@
 	height: auto;
 }
 .index-h2 {
-	font-family: 'Cantora One', sans-serif;
+	font-family:'Candal', sans-serif;
+	font-size: 
+}
+
+.index-h3 {
+	font-family:'Candal', sans-serif;
+
 }
