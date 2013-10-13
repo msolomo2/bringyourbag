@@ -1,5 +1,14 @@
 #navigation-links {
-	padding-top: 15px; font-size: 2.2em; font-family: “Trebuchet MS”, Tahoma, Arial, sans-serif; 	
+	padding-top: 15px; 
+	font-size: 2.0em;
+	font-family: “Trebuchet MS”, Tahoma, Arial, sans-serif;
+
+}
+
+#header {
+	height: 115px;
+	border-style: solid;
+	border-color: white white black;
 }
 
 .about-side-text {
@@ -22,7 +31,9 @@
 	font-size: 23px
 }
 
-.index-h1 {font-family: 'Purple Purse', cursive;
+.index-h1 {
+	font-family: 'Purple Purse', cursive;
+	text-align: center;
 }
 
 .img {
@@ -37,4 +48,8 @@
 .index-h3 {
 	font-family:'Candal', sans-serif;
 
+}
+.index-img {
+	text-align: center;
+	
 }
