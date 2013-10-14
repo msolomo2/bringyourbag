@@ -8,7 +8,12 @@
 #header {
 	height: 115px;
 	border-style: solid;
-	border-color: white white black;
+	border-color: white white gray;
+}
+
+#container {
+	border-style: solid;
+	border-color: white white gray;
 }
 
 .about-side-text {
@@ -28,12 +33,14 @@
 
 }
 .issue-h2 {
-	font-size: 23px
+	font-size: 23px;
+	text-align: center;
 }
 
 .index-h1 {
 	font-family: 'Purple Purse', cursive;
 	text-align: center;
+
 }
 
 .img {
@@ -42,11 +49,16 @@
 }
 .index-h2 {
 	font-family:'Candal', sans-serif;
-	font-size: 
+	font-size: 15px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 5px;
 }
 
 .index-h3 {
 	font-family:'Candal', sans-serif;
+	font-size: 15px;
+	text-align: center;
 
 }
 .index-img {
