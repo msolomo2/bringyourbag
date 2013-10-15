@@ -5,8 +5,8 @@
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     / Bootstrap
     %link{:href => "css/bootstrap.css", :media => "screen", :rel => "stylesheet"}/
-    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %link{href: "css/bootstrap-responsive.css", rel: "stylesheet"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %link{:href => "css/styles.css", :rel => "stylesheet"}
     / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
     /[if lt IE 9]
@@ -14,26 +14,28 @@
       <script src="../../assets/js/respond.min.js"></script>
   %body
     #header
-      .navbar
+      .navbar.navbar
         .navbar-inner
-          %a.navbar-brand(href="/")
-            %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}
-            %a.btn.btn-navbar(data-toggle="collapse" data-target=".nav-collapse")
-              %span.icon-bar
-              %span.icon-bar
-              %span.icon-bar
-          .nav-collapse#navigation-links
-            %ul.nav.navbar-nav
-              %li.active
-                %a{:href => "/about"} About
-              %li
-                %a{:href => "/issue"} Issue
-              %li
-                %a{:href => "/events"} Events
-              %li
-                %a{:href => "#"} Merch
-              %li
-                %a{:href => "#"} Donate 
+          .container
+            %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
+            %i.glyphicon.glyphicon-align-justify
+            %a.navbar-brand(href="/")
+              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+            .nav-collapse#navigation-links
+              %ul.nav.navbar-nav
+                %li.active
+                  %a{:href => "/about"} About
+                %li.active
+                  %a{:href => "/issue"} Issue
+                %li.active
+                  %a{:href => "/events"} Events
+                %li.active
+                  %a{:href => "#"} Merch
+                %li.active
+                  %a{:href => "#"} Donate 
     #container
       =yield
     / jQuery (necessary for Bootstrap's JavaScript plugins)
