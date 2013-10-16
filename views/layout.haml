@@ -17,13 +17,10 @@
       .navbar.navbar
         .navbar-inner
           .container
-            %a.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse"}
-            %i.glyphicon.glyphicon-align-justify
             %a.navbar-brand(href="/")
-              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}
-                %span.icon-bar
-                %span.icon-bar
-                %span.icon-bar
+              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}  
+            %button.navabr-toggle{"data-target" => ".navHeaderCollapse", "data-toggle" => "collapse"}    
+            .collapse.navbar-collapse-navHeaderCollapse  
             .nav-collapse#navigation-links
               %ul.nav.navbar-nav
                 %li.active
@@ -35,7 +32,7 @@
                 %li.active
                   %a{:href => "#"} Merch
                 %li.active
-                  %a{:href => "#"} Donate 
+                  %a{:href => "#"} Donate    
     #container
       =yield
     / jQuery (necessary for Bootstrap's JavaScript plugins)
