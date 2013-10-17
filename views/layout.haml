@@ -13,26 +13,47 @@
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
   %body
-    #header
-      .navbar.navbar
+    %header
+      .navbar
         .navbar-inner
           .container
             %a.navbar-brand(href="/")
-              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}  
-            %button.navabr-toggle{"data-target" => ".navHeaderCollapse", "data-toggle" => "collapse"}    
-            .collapse.navbar-collapse-navHeaderCollapse  
-            .nav-collapse#navigation-links
-              %ul.nav.navbar-nav
-                %li.active
-                  %a{:href => "/about"} About
-                %li.active
-                  %a{:href => "/issue"} Issue
-                %li.active
-                  %a{:href => "/events"} Events
-                %li.active
-                  %a{:href => "#"} Merch
-                %li.active
-                  %a{:href => "#"} Donate    
+              %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}
+            .pull-right
+              %button.btn.btn-navbar.navbar-toggle{"data-target" => ".nav-collapse", "data-toggle" => "collapse", type: "button"}  Menu   
+              .nav-collapse
+                %nav 
+                  .nav-collapse#navigation-links
+                    %ul.nav.navbar-nav
+                      %li
+                        %a{:href => "/about"} About
+                      %li
+                        %a{:href => "/issue"} Issue
+                      %li
+                        %a{:href => "/events"} Events
+                      %li
+                        %a{:href => "#"} Merch
+                      %li
+                        %a{:href => "#"} Donate    
+
+    / %header.navbar.navbar-static-top
+    /   .container.clearfix
+    /     %strong.logo
+    /       %img.brand{:src=>"http://www.underconsideration.com/brandnew/archives/chicago_flag.gif", :width => "130", :height => "80"}  
+    /     .pull-right
+    /       %button.btn.btn-navbar{"data-target" => ".nav-collapse", "data-toggle" => "collapse", type: "button"} Menu
+    /       %nav.nav-collapse.collapse
+    /         %ul.nav.nav-pills
+    /           %li
+    /             %a{:href => "/about"} About
+    /           %li
+    /             %a{:href => "/issue"} Issue
+    /           %li
+    /             %a{:href => "/events"} Events
+    /           %li
+    /             %a{:href => "#"} Merch
+    /           %li
+    /             %a{:href => "#"} Donate    
     #container
       =yield
     / jQuery (necessary for Bootstrap's JavaScript plugins)
