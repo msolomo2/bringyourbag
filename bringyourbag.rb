@@ -16,8 +16,8 @@ get '/issue' do
 	haml :issue
 end
 
-get '/events' do
-	haml :events
+get '/sign_up' do
+	haml :sign_up
 end
 
 # get '/call_alderman/:zipcode' do
