@@ -28,14 +28,7 @@
 	padding-top: 15px; padding-left: 60px; 
 	font-family: 'Candal', sans-serif; font-size: 30px
 }
-.issue-h1 { 
-	font-size: 23px
 
-}
-.issue-h2 {
-	font-size: 23px;
-	text-align: center;
-}
 
 .index-h1 {
 	font-family: 'Purple Purse', cursive;
@@ -65,3 +58,31 @@
 	text-align: center;
 	
 }
+.issue-h1 {
+	font-size: 13px
+}
+.issue-h2 {
+	font-size: 12px;
+	font-family:'Candal', sans-serif;
+}
+.issue-h3 {
+	font-size: 11px;	
+}
+.issue-h4 {
+	font-size: 11px;
+}
+.issue-h5 {
+	font-size: 11px;
+}
+.issue-h6 {
+	font-size: 11px;
+}
+.issue-h7 {
+	font-size: 11px;
+}
+.issue-h8 {
+	font-size: 12px;
+	font-family:'Candal', sans-serif;
+}
+.issue-h9 {
+	font-size: 13px;
