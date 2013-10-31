@@ -16,6 +16,18 @@
 	border-color: white white gray;
 }
 
+.about-p1 {
+	font-size: 15px;
+}
+
+.about-p2 {
+	font-size: 15px;
+}
+
+.about-p3 {
+	font-size: 15px;
+}
+
 .about-side-text {
 	padding-top: 30px;
 }
@@ -24,11 +36,15 @@
 	font-family: 'Oleo Script Swash Caps', cursive;
 	
 }
-.about-h4 {
-	padding-top: 15px; padding-left: 60px; 
-	font-family: 'Candal', sans-serif; font-size: 30px
+
+.about-h3 {
+	text-align: center;
 }
 
+.about-h4 {
+	padding-top: 15px; padding-left: 10px; 
+	font-family: 'Candal', sans-serif; font-size: 23px
+}
 
 .index-h1 {
 	font-family: 'Purple Purse', cursive;
@@ -49,8 +65,15 @@
 }
 
 .index-h3 {
+	font-size: 18px;
+}
+.indx-h4 {
+	font-size: 10px;
+}
+
+.index-h5 {
 	font-family:'Candal', sans-serif;
-	font-size: 15px;
+	font-size: 25px;
 	text-align: center;
 
 }
