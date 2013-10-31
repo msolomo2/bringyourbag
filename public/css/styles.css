@@ -15,6 +15,10 @@ ul li {
 	list-style-type: circle;
 }
 
+.row.social a {
+	font-size: .7em;
+}
+
 #container {
 	border-style: solid;
 	border-color: white white gray;
