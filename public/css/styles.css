@@ -11,6 +11,10 @@
 	border-color: white white gray;
 }
 
+ul li {
+	list-style-type: circle;
+}
+
 #container {
 	border-style: solid;
 	border-color: white white gray;
