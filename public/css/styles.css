@@ -15,8 +15,14 @@ ul li {
 	list-style-type: circle;
 }
 
+.row.singup i {
+	padding-top: 50px;
+}
+
 .row.social a {
-	font-size: .7em;
+	font-size: .6em;
+	font-family: 'Stoke', serif;
+	padding-bottom: 50px;
 }
 
 #container {
@@ -97,23 +103,29 @@ ul li {
 	font-family:'Candal', sans-serif;
 }
 .issue-h3 {
-	font-size: 15px;	
+	font-size: 12px;
+	font-style: oblique;	
 }
 .issue-h4 {
-	font-size: 15px;
+	font-size: 12px;
+	font-style: oblique;
 }
 .issue-h5 {
-	font-size: 15px;
+	font-size: 12px;
+	font-style: oblique;
 }
 .issue-h6 {
-	font-size: 15px;
+	font-size: 12px;
+	font-style: oblique;
 }
 .issue-h7 {
-	font-size: 15px;
+	font-size: 12px;
+	font-style: oblique;
 }
 .issue-h8 {
 	font-size: 12px;
 	font-family:'Candal', sans-serif;
+	padding-bottom: 15px;
 }
 .issue-h9 {
 	font-size: 13px;
