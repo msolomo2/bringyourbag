@@ -1,23 +1,23 @@
 require 'sinatra'
 
 get '/' do 
-	haml :index  
+	erb :index  
 end  
 
 get '/alderman' do
-	haml :alderman
+	erb :alderman
 end
 
 get '/about' do 
-	haml :about
+	erb :about
 end
 
 get '/issue' do
-	haml :issue
+	erb :issue
 end
 
 get '/sign_up' do
-	haml :sign_up
+	erb :sign_up
 end
 
 # get '/call_alderman/:zipcode' do
